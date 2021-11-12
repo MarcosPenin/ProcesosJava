@@ -1,12 +1,10 @@
-package Ejercicio3;
+package Ejercicio9;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PrintStream;
 
-public class MayusculasHijo {
+public class Hijo9 {
 
 	public static void main(String[] args) throws IOException {
 
@@ -15,7 +13,7 @@ public class MayusculasHijo {
 			BufferedReader br = new BufferedReader(is);
 			String liner = null;
 			while ((liner = br.readLine()) != null) {
-				System.out.println(liner.toUpperCase());
+				System.out.println(liner);
 			}
 
 		} catch (Exception e) {
